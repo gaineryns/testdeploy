@@ -14,6 +14,6 @@ class FirstController extends Controller
     public function index()
     {
         // replace this line with your own code!
-        return true;
+        return $this->render('base.html.twig',[]);
     }
 }
